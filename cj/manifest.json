@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "example",
+    "description": "The best Chrome extension",
+    "version": "1.0",
+
+    "browser_action": {
+        "default-icon": "teemo.png",
+        "default_popup": "lol.html",
+        "default_title": "literal sex awaits you"
+    },        
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
+}
